@@ -1,0 +1,248 @@
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">My Bootstrap</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="navbar-search pull-right">
+              <input type="text" class="search-query" placeholder="Search">
+            </form>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div>
+<a href="#advanced" role="button" data-toggle="modal" class="btn btn-warning">Advanced Sort</a>
+ 
+<!-- Advanced Modal -->
+<div id="advanced" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="advancedSort" aria-hidden="true">
+  <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <ul class="nav nav-pills pull-right">
+        <li class="active">
+          <a href="#date" data-toggle="pill">Date</a>
+        </li>
+        <li><a href="#relevance" data-toggle="pill">Relevance</a></li>
+        <li><a href="#dealership" data-toggle="pill">Dealership</a></li>
+      </ul>
+      <h4>Advanced Sort</h4>  
+  </div>
+  <div class="modal-body">
+      <div class="row-fluid">
+      <div class="tab-content">
+        <div class="tab-pane active" id="date">
+            <form>
+                      <div class="controls controls-row">
+                    <select>
+              <option>Date</option>
+              <option>Today</option>
+              <option>Yesterday</option>
+              <option>Last Week</option>
+              <option>Last Month</option>
+            </select>
+                      </div>
+            <button type="submit" class="btn btn-warning">Sort</button>
+            </form>
+          </div>
+          <div class="tab-pane" id="relevance">
+              <form>
+                <fieldset>
+                    <div class="controls controls-row">
+                        <select class="span6">
+                  <option value="">Relevance Factor</option>
+                  <option value="">Containing</option>
+                  <option value="">Starting with</option>
+                  <option value="">Enging with</option>
+                </select>
+                <select class="span6">
+                  <option value="">Sorting</option>
+                  <option value="">Relevant on top</option>
+                  <option value="">Relevant on bottom</option>
+                </select>
+                    </div>
+                  <button type="submit" class="btn btn-warning">Sort</button>
+                </fieldset>
+              </form>
+          </div>
+          <div class="tab-pane" id="dealership">
+            <form>
+                <fieldset>
+                    <div class="controls controls-row">
+                        <input type="text" class="span8" placeholder="Location">
+                <select class="span4">
+                  <option>City</option>
+                  <option>Los Angeles</option>
+                  <option>Tokyo</option>
+                  <option>New York</option>
+                  <option>London</option>
+                </select>
+                    </div>
+                  <button type="submit" class="btn btn-warning">Sort</button>
+                </fieldset>
+              </form>
+          </div>
+        </div>          
+      </div>
+  </div>
+</div>
+<div class="btn-toolbar">
+    <button class="btn btn-primary">New User</button>
+    <button class="btn">Import</button>
+    <button class="btn">Export</button>
+</div>
+<div class="well">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+          <th style="width: 36px;"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Tompson</td>
+          <td>the_mark7</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ashley</td>
+          <td>Jacobs</td>
+          <td>ash11927</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Audrey</td>
+          <td>Ann</td>
+          <td>audann84</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>John</td>
+          <td>Robinson</td>
+          <td>jr5527</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Aaron</td>
+          <td>Butler</td>
+          <td>aaron_butler</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Chris</td>
+          <td>Albert</td>
+          <td>cab79</td>
+          <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<div class="pagination">
+    <ul>
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+</div>
+<div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Delete Confirmation</h3>
+    </div>
+    <div class="modal-body">
+        <p class="error-text">Are you sure you want to delete the user?</p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+    </div>
+</div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
+</div> <!-- /container -->
